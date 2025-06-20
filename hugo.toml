@@ -1,0 +1,8 @@
+baseURL = "https://github.io/crooksagritech/"
+languageCode = "en-gb"
+title = "Crooks AgriTech Systems"
+theme = "ananke"
+
+[params]
+  featured_image = "/images/hero-bg.jpg"
+  body_classes = "sans-serif"

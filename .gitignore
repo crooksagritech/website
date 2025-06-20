@@ -1,0 +1,39 @@
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # Optional: if you want collaborators to use their own lockfile
+.pnpm-debug.log*
+
+# Hugo build output
+public/
+resources/_gen/
+hugo_stats.json
+
+# Hugo server-generated files
+.cache/
+hugo_cache/
+
+# VS Code / JetBrains IDE
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional if using Netlify or similar
+netlify.toml
+
+# Log files
+*.log
+
+# Environment and config
+.env
+.env.*.local
+*.local
+
+# Optional: if using GitHub Pages, you may want to ignore the deployment branch
+# /docs/ if you're using Hugo to output there
+docs/
